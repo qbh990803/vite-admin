@@ -20,6 +20,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'vue/no-multiple-template-root': 'off',
     'class-methods-use-this': 'off',
-    'no-param-reassign': 'off'
+    'no-param-reassign': 'off',
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }]
   }
 };
